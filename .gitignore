@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Data, checkpoints, results, caches (download data from Hugging Face).
+# The dataset/ folder keeps only the empty layout skeleton; real data files are
+# ignored by extension so they are never committed if downloaded into it.
+checkpoints/
+results*/
+logs*/
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.csv.gz
+*.parquet
+ctx_cache/
+osm_cache/
+
+# Large media / artifacts
+*.zip
+*.pdf
+*.png
+*.jpg
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
